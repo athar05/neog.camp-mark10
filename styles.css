@@ -1,0 +1,70 @@
+#bill-amount {
+    display:block;
+    width: 50%;
+    margin: auto;
+}
+
+.input-label {
+    align-content: center;
+    padding: 1rem 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+#cash-given {
+    display:block;
+    width: 50%;
+    margin: auto;
+}
+
+label {
+    align-content: center;
+}
+
+.container {
+    background-color: #1a759f;
+    color: #f0efeb;
+width: 50%;
+padding: 1rem;
+    margin: auto;
+}
+
+.change-table {
+   
+   text-align: justify;
+   border-collapse: collapse;
+   width: 50%;
+margin: auto;
+}
+
+
+#check-button {
+    background-color: #cddafd;
+    border: none; 
+    display: block;
+    cursor: pointer
+    width: 50px;
+    margin: auto;
+}
+
+
+table {
+    display: float;
+    text-indent: initial;
+    border-spacing: 2px;
+}
+
+th, td {
+    border: 0.1rem solid black;
+    border-collapse: collapse;
+    width: 0%;
+    padding: 0.4rem;
+}
+
+td {
+    display: table-cell;
+    vertical-align: inherit;
+}
