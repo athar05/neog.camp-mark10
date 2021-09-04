@@ -1,70 +1,82 @@
-#bill-amount {
-    display:block;
-    width: 50%;
-    margin: auto;
-}
-
-.input-label {
-    align-content: center;
-    padding: 1rem 0;
-}
-
 h1 {
     text-align: center;
-}
-
-
-#cash-given {
-    display:block;
-    width: 50%;
-    margin: auto;
-}
-
-label {
+  }
+  
+  label {
     align-content: center;
-}
-
-.container {
-    background-color: #1a759f;
-    color: #f0efeb;
-width: 50%;
-padding: 1rem;
-    margin: auto;
-}
-
-.change-table {
-   
-   text-align: justify;
-   border-collapse: collapse;
-   width: 50%;
-margin: auto;
-}
-
-
-#check-button {
-    background-color: #cddafd;
-    border: none; 
-    display: block;
-    cursor: pointer
-    width: 50px;
-    margin: auto;
-}
-
-
-table {
+  }
+  
+  table {
     display: float;
     text-indent: initial;
     border-spacing: 2px;
-}
-
-th, td {
+  }
+  
+  th,
+  td {
     border: 0.1rem solid black;
     border-collapse: collapse;
     width: 0%;
     padding: 0.4rem;
-}
-
-td {
+  }
+  
+  td {
     display: table-cell;
     vertical-align: inherit;
-}
+  }
+  
+  input {
+    margin: 0rem 0.5rem;
+  }
+  
+  .container {
+    background-color: #1a759f;
+    color: #f0efeb;
+    width: 50%;
+    padding: 1rem;
+    margin: auto;
+  }
+  
+  .input-controller {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .input-controller div {
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  
+  .input-label {
+    align-content: center;
+  }
+  
+  #bill-amount {
+    width: 25vw;
+    /* margin: auto; */
+  }
+  
+  #cash-given {
+    width: 25vw;
+    /* margin: auto; */
+  }
+  
+  .change-table {
+    text-align: justify;
+    border-collapse: collapse;
+    width: 50%;
+    margin: auto;
+  }
+  
+  #check-button {
+    background-color: #cddafd;
+    border: none;
+    display: block;
+    cursor: pointer;
+    width: 50px;
+    margin: auto;
+  }
+  
