@@ -1,87 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cash Register</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Cash Register</h1>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Cash Register</title>
-  <link rel="stylesheet" href="styles.css" />
-</head>
-
-<body>
-  <div class="container">
-    <h1>Cash Register</h1>
-
-    <p>
-      Enter the bill amount and cash given by the customer and know minimum
-      number of notes to return.
-    </p>
+      <p>
+        Enter the bill amount and cash given by the customer and know minimum
+        number of notes to return.
+      </p>
 
       <div class="input-controller">
-      <div>
-        <label class="input-label" for="bill-amount">Bill Amount:<input id="bill-amount" type="text" />
-        </label>
+        <div>
+          <label class="input-label" for="bill-amount"
+            >Bill Amount:<input id="bill-amount" type="text" />
+          </label>
+        </div>
+
+        <div>
+          <label class="input-label" for="cash-given"
+            >Cash Given:<input id="cash-given" type="text" />
+          </label>
+        </div>
+        <button id="check-button">Check</button>
       </div>
 
-      <div>
-        <label class="input-label" for="cash-given">Cash Given:<input id="cash-given" type="text" />
-        </label>
-      </div>
-      <button id="check-button">Check</button>
-    </div>
+      <p id="error-message"></p>
 
-    <p id="error-message"></p>
+      <div class="result-container">
+        <div class="result-table-heading">
+          <div>Count</div>
+          <div>Denomination</div>
+        </div>
 
-    <div class="result-container">
-      <div class="result-table-heading">
-        <div>Count</div>
-        <div>Denomination</div>
-      </div>
+        <div class="currency-column">
+          <div id="currency-value-2000">0</div>
+          <div>2000</div>
+        </div>
 
-      <div class="currency-column">
-        <div id="currency-value-2000">0</div>
-        <div>2000</div>
-      </div>
+        <div class="currency-column">
+          <div id="currency-value-500">0</div>
+          <div>500</div>
+        </div>
 
-      <div class="currency-column">
-        <div id="currency-value-500">0</div>
-        <div>500</div>
-      </div>
+        <div class="currency-column">
+          <div id="currency-value-100">0</div>
+          <div>100</div>
+        </div>
 
-      <div class="currency-column">
-        <div id="currency-value-100">0</div>
-        <div>100</div>
-      </div>
+        <div class="currency-column">
+          <div id="currency-value-50">0</div>
+          <div>50</div>
+        </div>
 
-      <div class="currency-column">
-        <div id="currency-value-50">0</div>
-        <div>50</div>
-      </div>
+        <div class="currency-column">
+          <div id="currency-value-20">0</div>
+          <div>20</div>
+        </div>
 
-      <div class="currency-column">
-        <div id="currency-value-20">0</div>
-        <div>20</div>
-      </div>
+        <div class="currency-column">
+          <div id="currency-value-10">0</div>
+          <div>10</div>
+        </div>
 
-      <div class="currency-column">
-        <div id="currency-value-10">0</div>
-        <div>10</div>
-      </div>
+        <div class="currency-column">
+          <div id="currency-value-5">0</div>
+          <div>5</div>
+        </div>
 
-      <div class="currency-column">
-        <div id="currency-value-5">0</div>
-        <div>5</div>
-      </div>
+        <div class="currency-column">
+          <div id="currency-value-2">0</div>
+          <div>2</div>
+        </div>
 
-      <div class="currency-column">
-        <div id="currency-value-1">0</div>
-        <div>1</div>
-      </div>
+        <div class="currency-column">
+          <div id="currency-value-1">0</div>
+          <div>1</div>
+        </div>
 
     </div>
 
     <script src="app.js"></script>
-</body>
-
+  </body>
 </html>
